@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+  <title>安徽泛湖生态技术有限公司</title>
+  <link rel="stylesheet" href="./layui/css/layui.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav index">
+    <div class="layui-container">
+      <!-- 公司logo -->
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="安徽泛湖生态技术有限公司" />
+        </a>
+      </div>
+      <div class="nav-list">
+        <!-- 下拉列表，默认隐藏 -->
+        <button><span></span><span></span><span></span></button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item">
+            <a href="./business.html">业务概览</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./content.html">服务内容</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./solution.html">解决方案</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./performance.html">项目业绩</a>
+          </li>
+          <li class="layui-nav-item"><a href="./about">关于我们</a></li>
+          <li class="layui-nav-item">
+            <a href="http://47.104.228.220:10002" class="login">登陆</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 后续待完善添加的功能，英文版及搜索 -->
+      <div class="search"></div>
+      <div class="language"></div>
+    </div>
+  </div>
+
+  <div class="banner content">
+    <div class="title">
+      <p>服务内容</p>
+      <p class="en">Business Content</p>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="layui-container layui-row">
+      <ul class="layui-nav layui-nav-tree layui-inline layui-col-xs2" lay-filter="demo" id="sidebar"
+        style="margin-right: 10px;">
+        <li id="side-title">服务内容</li>
+        <li class="layui-nav-item">
+          <a href="#content1">水环境全过程技术咨询</a>
+          <dl class="layui-nav-child">
+            <dd><a href="javascript;">全流域规划技术咨询</a></dd>
+            <dd><a href="javascript;">区域水环境技术咨询</a></dd>
+            <dd><a href="javascript;">单厂建设与运营技术咨询</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item">
+          <a href="#content2">全流域水循环数值模拟</a>
+          <dl class="layui-nav-child">
+            <dd><a href="">流域规划级模型</a></dd>
+            <dd><a href="">区域多厂设计运营级模型</a></dd>
+            <dd><a href="">单厂优化设计运营级模型</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item"><a href="#content3">水环境数字云平台</a></li>
+      </ul>
+      <div id="container" class="layui-col-xs9">
+        <span class="layui-breadcrumb">
+          <a href="/index.html">首页</a>
+          <a href="/content.html">服务内容</a>
+          <a><cite>内容介绍</cite></a>
+          <div id="content1"></div>
+        </span>
+        <div style="padding-top: 50px;">
+          <p id="water1" class="content-title" style="padding-bottom: 30px;">水环境全过程技术咨询</p>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p id="water1-1" class="label">全流域规划决策技术咨询</p>
+              <p class="detail">
+                以全流域数值模拟及技术咨询的方式，从规划决策层面，帮助政府部门及相关合作机构，通过流域模型等相关工具，实现全流域水环境达标。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/client7-1.png" />
+            </div>
+          </div>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p id="water1-2" class="label">区域水环境技术咨询</p>
+              <p class="detail">
+                以污染物削减智慧设计、运营技术咨询、区域水污染控制&雨洪管理等的方式，从建设运营层面，帮助公用事业部门、PPP合作方、科研院所和公司企业，通过厂网模型等相关工具，实现区域水环境达标。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/client8-1.png" />
+            </div>
+          </div>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p id="water1-3" class="label">单厂建设与运营技术咨询</p>
+              <p class="detail">
+                以工艺模拟、提供技术改造方案、运营技术方案或管控建议等方式，从建设或运营层面，帮助水污染治理企业等，通过工艺模型等相关工具，实现达标排放与节能降耗。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/client9-1.png" />
+            </div>
+          </div>
+          <div id="content2"></div>
+        </div>
+
+        <div>
+          <p class="content-title" style="margin-top: 80px;">全流域水循环数值模拟</p>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p class="label">流域层面(宏观)规划级模型</p>
+              <p class="detail">
+                对从水体生态、河道水质、河道流量、水工结构、点源非点源、气象沉降、行政区划、土地利用、坡度分类
+                、土壤类型、汇水划分、河网提取的数据进行辅助制定总量控制计划，优化总量削减工程措施，辅助进行流域智慧管理等。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/content2-11.png" />
+            </div>
+          </div>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p class="label">区域多厂设计运营级模型</p>
+              <p class="detail">
+                对从运营方案、控制系统、工程方案、水工结构、点源非点源行、政区划及管网提取得到的数据，用于辅助评估优化设计方案及辅助管理优化运营方案。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/content2-2.png" />
+            </div>
+          </div>
+          <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p class="label">单厂优化设计运营级模型</p>
+              <p class="detail">
+                对从运营方案、控制系统、工程方案、水工结构、点源非点源、行政区划及管网提取得到的数据，用于达标稳定性优化成本及经济性优化。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/content2-3.png" />
+            </div>
+          </div>
+          <div id="content3"></div>
+        </div>
+
+        <div style="margin-top: 80px;">
+          <p class="content-title">水环境相关数字化云平台提供</p>
+          <div class="content-bottom layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right text">
+              <p class="label">数字云平台</p>
+              <p class="detail">
+                帮助客户建立数字化信息采集管理运行技术云平台、提供从前期规划到后期运营的全项目周期的基于PLAKeco@模型的数字化信息技术云平台建设的咨询和技术支持。
+              </p>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img">
+              <img src="../img/content3-1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="layui-container">
+      <p class="footer-web">
+        <a href="javascript:;">关于我们</a>
+        <a href="javascript:;">加入我们</a>
+        <a href="javascript:;">联系我们</a>
+        <a href="javascript:;">技术支持</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1">
+          <img src="./img/wechat1.jpg" />
+        </div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+              <p class="contact-top">
+                <i class="layui-icon layui-icon-cellphone"></i>&nbsp;0551-8888888&nbsp;&nbsp;(9:00-18:00)
+              </p>
+              <p class="contact-bottom">
+                <i class="layui-icon layui-icon-home"></i><span>888888@126.com</span>
+              </p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-top">
+                <span class="right"><a href="https://www.plakeco.com/" target="_blank">安徽泛湖生态科技股份有限公司</a>
+                  版权所有</span>
+              </p>
+              <p class="contact-bottom">
+                <span class="right">Copyright&nbsp;©&nbsp;2017&nbsp;&nbsp;皖ICP&nbsp;备17013992号</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="layui-fixbar">
+    <li class="layui-icon layui-fixbar-top hidden" lay-type="top"></li>
+  </ul>
+  <script src="./layui/layui.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

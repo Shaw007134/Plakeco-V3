@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+  <title>安徽泛湖生态技术有限公司</title>
+  <link rel="stylesheet" href="./layui/css/layui.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav index">
+    <div class="layui-container">
+      <!-- 公司logo -->
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="./img/logo.png" alt="安徽泛湖生态技术有限公司" />
+        </a>
+      </div>
+      <div class="nav-list">
+        <!-- 下拉列表，默认隐藏 -->
+        <button><span></span><span></span><span></span></button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item">
+            <a href="./business.html">业务概览</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./content.html">服务内容</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./solution.html">解决方案</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="./performance.html">项目业绩</a>
+          </li>
+          <li class="layui-nav-item"><a href="./about.html">关于我们</a></li>
+          <li class="layui-nav-item">
+            <a href="http://47.104.228.220:10002" class="login">登陆</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 后续待完善添加的功能，英文版及搜索 -->
+      <div class="search"></div>
+      <div class="language"></div>
+    </div>
+  </div>
+
+  <!-- banner部分 -->
+  <div>
+    <div class="layui-carousel" id="banner">
+      <div carousel-item>
+        <div>
+          <img src="./img/banner.jpg" />
+        </div>
+        <div>
+          <img src="./img/banner.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- main部分 -->
+  <div class="main-service">
+    <div class="layui-container">
+      <p class="title">服务类型</p>
+      <div class="layui-row layui-col-space22">
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business2.png" alt="" /></div>
+            <p class="label">技术咨询</p>
+            <a href="./content.html">查看业务</a>
+          </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business1.png" alt="" /></div>
+            <p class="label">数值模拟</p>
+            <a href="./content.html#content2">查看业务</a>
+          </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business3-1.png" alt="" /></div>
+            <p class="label">数字云平台</p>
+            <a href="./content.html#content3">查看业务</a>
+          </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business2.png" alt="" /></div>
+            <p class="label">技术咨询</p>
+            <a href="./content.html">查看业务</a>
+          </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business1.png" alt="" /></div>
+            <p class="label">数值模拟</p>
+            <a href="./content.html#content2">查看业务</a>
+          </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md4">
+          <div class="content">
+            <div><img src="./img/business3-1.png" alt="" /></div>
+            <p class="label">数字云平台</p>
+            <a href="./content.html#content3">查看业务</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-customer block">
+    <div class="layui-container">
+      <p class="title">服务内容</p>
+      <div class="layui-row  layui-col-space25 layui-col-space30">
+        <div class="layui-col-sm6">
+          <div class="desc">
+            <h1 class="h1">
+              数值模拟
+            </h1>
+            <div class="paragraph">
+              我们能对水流域全程进行各种模型模拟，诸如SWMM等等模型，为水环境治理提供一站式解决方案。
+            </div>
+          </div>
+        </div>
+        <div class="layui-col-sm6">
+          <div class="vp">
+            <iframe src="https://player.vimeo.com/video/366456775?background=1" width="100%" height="100%"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="layui-row  layui-col-space25 layui-col-space30">
+        <div class="layui-col-sm6">
+          <div class="vp">
+            <iframe src="https://player.vimeo.com/video/367256677?background=1" width="100%" height="100%"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="layui-col-sm6">
+          <div class="desc">
+            <h1 class="h1">
+              数值模拟
+            </h1>
+            <div class="paragraph">
+              我们能对水流域全程进行各种模型模拟，诸如SWMM等等模型，为水环境治理提供一站式解决方案。
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layui-row  layui-col-space25 layui-col-space30">
+        <div class="layui-col-sm6">
+          <div class="desc">
+            <h1 class="h1">
+              数值模拟
+            </h1>
+            <div class="paragraph">
+              我们能对水流域全程进行各种模型模拟，诸如SWMM等等模型，为水环境治理提供一站式解决方案。
+            </div>
+          </div>
+        </div>
+        <div class="layui-col-sm6">
+          <div class="vp">
+            <iframe src="https://player.vimeo.com/video/366461722?background=1" width="100%" height="100%"
+              frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-solution block">
+    <div class="layui-container">
+      <p class="title">解决方案</p>
+      <div class="layui-row layui-col-space25 layui-col-space30">
+        <div class="layui-col-sm4">
+          <div class="content block-img">
+            <a>
+              <div class="img-box" style="background: no-repeat center center url(../img/client1-2.png);"></div>
+              <div class="text-center">
+                <div class="center">
+                  <h1>总量控制</h1>
+                  <p>提供水环境容量总量控制的咨询</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="layui-col-sm4">
+          <div class="content block-img">
+            <a>
+              <div class="img-box" style="background: no-repeat center center url(../img/client1-3.png);"></div>
+              <div class="text-center">
+                <div class="center">
+                  <h1>水环境管理</h1>
+                  <p>提供区域水环境管理的咨询</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="layui-col-sm4">
+          <div class="content block-img">
+            <a>
+              <div class="img-box" style="background: no-repeat center center url(../img/client1-1.png);"></div>
+              <div class="text-center">
+                <div class="center">
+                  <h1>智慧曝气</h1>
+                  <p>提供智慧曝气技术的咨询</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="newscenter"></div>
+
+  <div class="main-case">
+    <div class="layui-container">
+      <p class="title">成功案例</p>
+      <div class="layui-row">
+        <div class="layui-inline content">
+          <div class="layui-inline case-img">
+            <img src="./img/case1.png" />
+          </div>
+          <p class="lable">美国加州新港湾流域</p>
+          <p>
+            公司核心成员指导制订了美国加州新港湾流域综合治理及低影响开发工程规划.
+            该规划基于地理信息系统普查筛选做出
+          </p>
+        </div>
+        <div class="layui-inline content even center">
+          <div class="layui-inline case-img">
+            <img src="./img/case2.png" />
+          </div>
+          <p class="lable">美国加州新港湾流域</p>
+          <p>
+            公司核心成员指导制订了美国加州新港湾流域综合治理及低影响开发工程规划.
+            该规划基于地理信息系统普查筛选做出
+          </p>
+        </div>
+        <div class="layui-inline content">
+          <div class="layui-inline case-img">
+            <img src="./img/case3.png" />
+          </div>
+          <p class="lable">美国加州新港湾流域</p>
+          <p>
+            公司核心成员指导制订了美国加州新港湾流域综合治理及低影响开发工程规划.
+            该规划基于地理信息系统普查筛选做出
+          </p>
+        </div>
+        <div class="layui-inline content even center">
+          <div class="layui-inline case-img">
+            <img src="./img/case4.png" />
+          </div>
+          <p class="lable">美国加州新港湾流域</p>
+          <p>
+            公司核心成员指导制订了美国加州新港湾流域综合治理及低影响开发工程规划.
+            该规划基于地理信息系统普查筛选做出
+          </p>
+        </div>
+      </div>
+      <div id="case"></div>
+    </div>
+  </div>
+
+  <div class="main-info">
+    <div class="layui-container">
+      <p class="title">实时气象</p>
+      <div class="layui-row">
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md7" style="width: 70%;" id="container"></div>
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md7" style="width: 30%; height: 400px; border-radius: 2px;"
+          id="dituContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="layui-container">
+      <p class="footer-web">
+        <a href="javascript:;">关于我们</a>
+        <a href="javascript:;">加入我们</a>
+        <a href="javascript:;">联系我们</a>
+        <a href="javascript:;">技术支持</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1">
+          <img src="./img/wechat1.jpg" />
+        </div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+              <p class="contact-top">
+                <i class="layui-icon layui-icon-cellphone"></i>&nbsp;0551-8888888&nbsp;&nbsp;(9:00-18:00)
+              </p>
+              <p class="contact-bottom">
+                <i class="layui-icon layui-icon-home"></i>&nbsp;<span>888888@126.com</span>
+              </p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-top">
+                <span class="right"><a href="https://www.plakeco.com/" target="_blank">安徽泛湖生态科技股份有限公司</a>
+                  版权所有</span>
+              </p>
+              <p class="contact-bottom">
+                <span class="right">Copyright&nbsp;©&nbsp;2017&nbsp;&nbsp;皖ICP&nbsp;备17013992号</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="layui-fixbar">
+    <li class="layui-icon layui-fixbar-top hidden" lay-type="top"></li>
+  </ul>
+  <script src="./layui/layui.js"></script>
+  <script src="./dist/highcharts.js"></script>
+  <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

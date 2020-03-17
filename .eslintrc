@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint", // Specifies the ESLint parser
+  "parserOptions": {
+    "ecmaVersion": 2015, // specify the version of ECMAScript syntax you want to use: 2015 => (ES6)
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "extends": ["plugin:prettier/recommended"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
